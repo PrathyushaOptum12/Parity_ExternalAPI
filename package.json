@@ -1,0 +1,21 @@
+{
+  "name": "hellonodejsapi",
+  "version": "1.0.0",
+  "description": "This is a HelloWorldRest API in NodeJs",
+  "main": "Server.js",
+  "scripts": {
+    "test": "\"Welcome to HelloWorld Respt API\""
+  },
+  "keywords": [
+    "\"Restful\"",
+    "\"API\"",
+    "\"HelloWorld\""
+  ],
+  "author": "\"Prathyusha\"",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-gyp": "^6.0.0",
+    "web3": "^1.2.2"
+  }
+}
