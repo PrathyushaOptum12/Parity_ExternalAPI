@@ -4,5 +4,8 @@ module.exports = function(app) {
 
     //Helloworld Routes
     app.route('/getMessage')
-    .get(helloWorld.read_HelloBlockchain);
+    .get(helloWorld.read_Message);
+
+    app.route('/getHello')
+    .get(helloWorld.read_Hello);
 }
