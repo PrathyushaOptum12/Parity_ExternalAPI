@@ -10,7 +10,7 @@ var web3 = new Web3(); // instantiate Web3 to get a new object
 ///using web socket provider
 //web3 = new Web3(new Web3.providers.WebsocketProvider("wss://accumdev.blockchain.azure.com:3300/ajkJzpNwg0SihtLDBc1dFTQC"));
 
-web3 = new Web3(new Web3.providers.WebsocketProvider("https://accumdev.blockchain.azure.com:3200/tDkJ9wCAAbIvUQgDsoevdabu"));
+web3 = new Web3(new Web3.providers.HttpProvider("https://accumdev.blockchain.azure.com:3200/tDkJ9wCAAbIvUQgDsoevdabu"));
 var helloBlockchainContract = new web3.eth.Contract(abi,"0xc3DF3b7740040Af900e85E9F9a268AD2C7aFB277");
 
 //local ganache connection
